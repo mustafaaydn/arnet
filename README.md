@@ -84,6 +84,6 @@ ARNet.plot(lines=[y_train, preds_in_sample, y_test, preds_out_sample],
                    intervals=intervals)
 ```
 Here is an example plot output:
-![example plot](tests/figures/example_plot.png)
+![example plot](tests/figures/example_plot.PNG)
 
 For examples with a dataset in action, please see [here](https://mustafaaydn.github.io/arnet/index.html); for the API reference, see [here](https://mustafaaydn.github.io/arnet/arnet.html).
