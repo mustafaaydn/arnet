@@ -43,7 +43,7 @@ model.fit(...)
 predictons = model.predict(...)
 ```
 
-Default base model is an [`MLPRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html); if you want to use another one, that's okay too:
+Default base model is an [`MLPRegressor`](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html); if you want to use another one, [that's okay](https://mustafaaydn.github.io/arnet/index.html#different-base-models) too:
 ```py
 from sklearn.ensemble import RandomForestRegressor
 
@@ -54,7 +54,7 @@ In fact, if you use [`LinearRegression`](https://scikit-learn.org/stable/modules
 effectively have the linear AR(p) model as a subset! [Here](https://mustafaaydn.github.io/arnet/index.html#linear-ar-p-as-a-subset) is an example for that.
 
 ### Prediction intervals
-Following the procedure in [FPP](https://otexts.com/fpp3/nnetar.html#prediction-intervals-5), the model is able to produce prediction intervals for the future given confidence levels:
+Following the procedure in [FPP](https://otexts.com/fpp3/nnetar.html#prediction-intervals-5), the model is able to produce [prediction intervals](https://mustafaaydn.github.io/arnet/index.html#prediction-intervals) for the future given confidence levels:
 ```py
 model = ARNet()
 model.fit(y_train)
