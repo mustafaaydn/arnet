@@ -1,0 +1,28 @@
+[project]
+name = "arnet"
+version = "0.0.1"
+authors = [
+  { name = "Mustafa Aydın" }
+]
+description = "Nonlinear autoregression with feed-forward neural networks (or any estimator really)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Artistic License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "pandas>=1.4.0",
+    "scikit-learn",
+    "statsmodels",
+]
+keywords = ["time series", "autoregression", "neural networks", "prediction"]
+
+[project.urls]
+"Source code" = "https://github.com/mustafaaydn/arnet"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
