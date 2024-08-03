@@ -7,7 +7,7 @@ Following nnetar.R, the ordinal (`p`) and seasonal (`P`) lags to look back are a
 unspecified. Furthermore, number of hidden neurons in the default estimator is also chosen automatically following the
 heuristic in nnetar.R.
 
-#### Installation
+#### [Installation](https://pypi.org/project/arnet/)
 ```sh
 pip install arnet
 ```
